@@ -1,50 +1,32 @@
-# Template delivery review
+# Workshop proof-project review
 
-Review date: October 31, 2026.
+## GitHub template provenance
 
-## Scope
+GitHub generated `kyle-annora/annora-explorer-bench-vise` from `kyle-annora/annora-explorer`. The repository API reports that template relationship. The generated initial commit is `dd22cdf3efa135efee1216f964675f9376b1bc0a`; template source commit is `889ded549867540fa45abe95e631acd0b1ea0cb4`.
 
-Standalone, public-template packaging of the approved Explorer. Project branding,
-model registration, feature policy, generic model preparation, English handoff
-material and an agent skill are added. The original customer repository is not
-part of this repository or its history.
+This proof used a fresh clone of the generated GitHub repository. It did not reuse the earlier local onboarding copy. The reviewer followed the inherited English README, AGENTS, repository skill and referenced configuration/model/deployment guides.
 
-## Completed local evidence
+## Project changes
 
-- Full template verification: 247 tests pass; configured packages validate and
-  production build succeeds. Dependency audit reports zero known vulnerabilities
-  at review time. The bundled skill passes its structural validator.
-- The original stylesheet, appearance system, line renderer, tour UI/player,
-  motion and source-operation sampler remain byte-identical to the approved
-  runtime. Integration changes affect project configuration and controller policy.
-- Independent agent onboarding from English instructions creates a separately
-  branded, one-model project without editing the shared runtime.
-- Third model: original MIT bench vise, 58 meshes, six groups, 12,174 triangles;
-  848,488-byte GLB / 141,781-byte gzip. Generic import preserves source bytes and
-  deterministically generates line data. A 5.5-second authored clip and 60-second
-  English tour exercise the same scene and player.
-- Independent browser review covers engineering, pure linework, flat Ember,
-  component focus, explosion, operation, restoration, the complete tour and a
-  nested deployment path. 390×844 viewport reviewed; no browser warnings/errors.
-- Tests cover invalid packages, path/symlink containment, unsafe branding URLs,
-  exact compression, capability narrowing, stale command cancellation and transport
-  origin/session boundaries. No private customer references were found in source,
-  generated configuration or the embedded GLB metadata.
-- Full runtime/model license notices are included in the deployed build.
+Changed project configuration to `workshop-vise`, `WORKSHOP / MECHANISM LAB`, Ember, and one newly imported package at `content/models/my-vise`. Themes are disabled; quality, all rendering styles, explosion, authored operation and guided tour remain enabled.
 
-## Publication evidence
+The sample source was imported through the generic CLI. No files under `src/explorer/` changed. Generated catalog/configuration files were produced by the normal preparation command. The shared-runtime tree from the generated template is recorded in `onboarding-evidence.json`.
 
-Publication verification is in progress. The final record will include source
-commits, generated-template provenance, workflow results and live review URLs.
+## Local verification
+
+- `npm ci` succeeded with zero reported vulnerabilities.
+- Generic import succeeded without warnings: 58 meshes, 12,174 triangles and 29 unique geometries.
+- Source SHA-256 remains `40427624bc9844818508fa07bef612154d44ae92880f717c557caa81468fe623`.
+- `npm run verify` passed package validation, **247 tests**, and the production build.
+- The source model is 848,488 bytes; its prepared gzip is 141,781 bytes. The build contains one configured model package.
+- Original source, license, definitions, tour and deterministic preparation report are included.
+
+## Live review
+
+Deployment and live browser review are pending. This record will be updated with the deployed commit, workflow run, desktop/mobile inspection, full guided-tour completion and separate-origin integration results.
 
 ## Limits
 
-This release accepts prepared rigid, untextured GLB input; it does not convert
-arbitrary CAD, infer operating mechanisms or generate a reliable tour from
-geometry alone. The public interface is a versioned iframe/JSON boundary, not a
-same-document SDK, npm package, backend or MCP service.
+The model is an original MIT-licensed illustrative assembly. Its authored screw-to-jaw relation does not establish collision/contact, clamping force or manufacturability. The importer accepts prepared rigid, untextured GLB rather than arbitrary CAD.
 
-The local review used desktop Chrome and viewport emulation. Physical-phone and
-ordinary-laptop GPU/thermal qualification remains open. Apollo is a larger
-optional sample; its transfer and frame-rate costs should be measured on target
-hardware before making a production performance promise.
+The public integration boundary is a versioned iframe/JSON interface, not a same-document SDK or remote MCP service. No backend is included. Physical-phone and ordinary-laptop GPU/thermal performance qualification remains open; viewport inspection must not be presented as that hardware evidence.

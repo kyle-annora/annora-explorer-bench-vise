@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-01T00:20:11.304182+00:00",
+  "github": {
+    "createdAt": "2026-11-01T00:18:35Z",
+    "repository": "kyle-annora/annora-explorer-bench-vise",
+    "templateRepository": "kyle-annora/annora-explorer",
+    "visibility": "public"
+  },
+  "initialGeneratedCommit": "dd22cdf3efa135efee1216f964675f9376b1bc0a",
+  "sharedRuntimeTree": "d6d5d51cec414e58e527df8dd6c59bc912e06f2f",
+  "projectId": "workshop-vise",
+  "modelId": "bench-vise",
+  "configuredManifest": "content/models/my-vise/manifest.json",
+  "sourceSha256": "40427624bc9844818508fa07bef612154d44ae92880f717c557caa81468fe623",
+  "configSha256": "a013851b9fd030363175d722bc84f0147c621eb35d6e1e181d96c2c1dfd5cdbf",
+  "modelCounts": {
+    "meshes": 58,
+    "nodes": 61,
+    "triangles": 12174,
+    "vertices": 23185,
+    "uniqueGeometries": 29,
+    "sourceAnimationClips": 1
+  },
+  "validation": {
+    "node": "v26.3.0",
+    "npmCi": "passed; zero reported vulnerabilities",
+    "packageCheck": "passed",
+    "testPass": 247,
+    "testFail": 0,
+    "productionBuild": "passed"
+  },
+  "sharedRuntimeEdits": false,
+  "liveReview": "pending deployment",
+  "templateSourceCommit": "889ded549867540fa45abe95e631acd0b1ea0cb4"
+}

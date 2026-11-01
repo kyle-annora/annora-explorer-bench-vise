@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "bench-vise",
+  "rootId": "bench-vise",
+  "title": "Precision bench vise",
+  "shortTitle": "Bench vise",
+  "assets": {
+    "model": "model.glb",
+    "compressedModel": "model.glb.gz",
+    "metadata": "metadata.json",
+    "edges": "edges.bin",
+    "compressedEdges": "edges.bin.gz",
+    "edgeMetadata": "edge-metadata.json",
+    "silhouettes": "silhouettes.bin",
+    "compressedSilhouettes": "silhouettes.bin.gz",
+    "silhouetteMetadata": "silhouette-metadata.json",
+    "license": "LICENSE.txt"
+  },
+  "view": {
+    "direction": [
+      0.95,
+      1.1,
+      1.55
+    ],
+    "normalizedWidth": 4.4,
+    "labels": [
+      "Overview",
+      "Reverse"
+    ]
+  },
+  "provenance": {
+    "author": "Annora",
+    "license": "MIT",
+    "attribution": "Original Annora bench-vise study · MIT · 2026",
+    "description": "Original procedural geometry and authored screw-to-jaw motion created for the Annora Explorer template.",
+    "note": "Illustrative rigid-body kinematics. Not manufacturer CAD, a force simulation, or manufacturing guidance. Display finishes and separation offsets are explanatory."
+  },
+  "tour": "tour.json"
+}

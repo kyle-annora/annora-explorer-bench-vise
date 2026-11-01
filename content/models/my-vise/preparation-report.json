@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "modelId": "bench-vise",
+  "sourceSha256": "40427624bc9844818508fa07bef612154d44ae92880f717c557caa81468fe623",
+  "preservedSource": true,
+  "limits": {
+    "sourceBytes": 67108864,
+    "jsonBytes": 2097152,
+    "meshes": 2000,
+    "nodes": 10000,
+    "triangles": 1000000,
+    "trianglesPerGeometry": 250000,
+    "vertices": 3000000,
+    "animationKeys": 100000,
+    "clipSeconds": 120,
+    "outputBytes": 201326592
+  },
+  "counts": {
+    "meshes": 58,
+    "nodes": 61,
+    "triangles": 12174,
+    "vertices": 23185,
+    "uniqueGeometries": 29,
+    "sourceAnimationClips": 1
+  },
+  "bytes": {
+    "source": 848488,
+    "compressedModel": 141781,
+    "creases": 94752,
+    "contours": 115968,
+    "total": 1408487
+  },
+  "operation": "ViseOpenClose",
+  "tour": "tour.json",
+  "warnings": [],
+  "assets": {
+    "model.glb": {
+      "bytes": 848488,
+      "sha256": "40427624bc9844818508fa07bef612154d44ae92880f717c557caa81468fe623"
+    },
+    "model.glb.gz": {
+      "bytes": 141781,
+      "sha256": "fd7b0cfc249f56e8ebedb46679032b421f521999a9cf694fd3a7fadc6a11e68c"
+    },
+    "metadata.json": {
+      "bytes": 77315,
+      "sha256": "ae7890fd144d096398a9e508cf704231d457074170a3259ff66a3171f8c5e7bd"
+    },
+    "edges.bin": {
+      "bytes": 94752,
+      "sha256": "d85f8198955f4075d1dcbb7a9d6bd59c924a4d2dfb534c91a58e91c2aa924ef4"
+    },
+    "edges.bin.gz": {
+      "bytes": 36234,
+      "sha256": "f1189d373a74ca1d59c196143d114688adc34abbed9ba1e9b520b29781248ed0"
+    },
+    "edge-metadata.json": {
+      "bytes": 24673,
+      "sha256": "8d5e91e7c5a65043b4eaa410b3bbf366d46fbe9b56e881d982a6337342da72b6"
+    },
+    "silhouettes.bin": {
+      "bytes": 115968,
+      "sha256": "0639daf4aa4a688e4f26c3ee33e8fb7e0fe6b1676eaf8428b5904c48b541b1e8"
+    },
+    "silhouettes.bin.gz": {
+      "bytes": 44509,
+      "sha256": "13a114e6869cb5f9cef6c9a07d4bc15db81ba837e3f9f2409c3f16115a0057e6"
+    },
+    "silhouette-metadata.json": {
+      "bytes": 14804,
+      "sha256": "81e45b238c630f14e7a988561b97ebccc6e5ada307e552fc696993e7832413d0"
+    },
+    "LICENSE.txt": {
+      "bytes": 1063,
+      "sha256": "9111adf0b7bc1a6088a762b9f25cf3291c7825cde7b274057b6ed4cee3fffcd2"
+    },
+    "tour.json": {
+      "bytes": 7741,
+      "sha256": "88c97b2259017392d55703546dee109662173b96b3b232198ad6efec53e22f7a"
+    },
+    "manifest.json": {
+      "bytes": 1159,
+      "sha256": "63be5db9e55f6768cf1fb84522b4945eb5d44d1d1b122f4f16d04112fd776b30"
+    }
+  }
+}

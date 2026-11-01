@@ -1,0 +1,349 @@
+{
+  "id": "bench-vise",
+  "title": "How a screw advances a jaw",
+  "chapters": [
+    {
+      "id": "whole",
+      "label": "Whole",
+      "title": "One controlled axis.",
+      "duration": 6,
+      "previewAt": 1.5,
+      "caption": "",
+      "scopeId": "bench-vise",
+      "selectedId": "bench-vise",
+      "highlightIds": [],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "bench-vise",
+        "direction": [
+          0.95,
+          1.1,
+          1.55
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.7,
+          "id": "jaw",
+          "highlightIds": [
+            "moving-jaw"
+          ]
+        },
+        {
+          "at": 1.1,
+          "id": "purpose",
+          "caption": "A hand-operated screw moves one jaw toward the other."
+        }
+      ],
+      "start": 0,
+      "end": 6
+    },
+    {
+      "id": "assemblies",
+      "label": "Assemblies",
+      "title": "Read the assembly.",
+      "duration": 10,
+      "previewAt": 1.5,
+      "caption": "",
+      "scopeId": "bench-vise",
+      "selectedId": "bench-vise",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0.6
+      ],
+      "camera": {
+        "focusId": "bench-vise",
+        "direction": [
+          0.95,
+          1.1,
+          1.55
+        ],
+        "explosion": 0.6,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 2.4,
+          "id": "fixed",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "base",
+            "fixed-jaw"
+          ],
+          "caption": "The base and fixed jaw stay in place."
+        },
+        {
+          "at": 5.3,
+          "id": "travel",
+          "highlightIds": [
+            "moving-jaw"
+          ],
+          "caption": "The moving jaw rides along two guideways."
+        },
+        {
+          "at": 7.5,
+          "id": "drive",
+          "highlightIds": [
+            "lead-screw",
+            "handle"
+          ],
+          "caption": "The handle drives a threaded spindle."
+        }
+      ],
+      "transitionStart": 0.5,
+      "transition": 1.6,
+      "start": 6,
+      "end": 16
+    },
+    {
+      "id": "drive",
+      "label": "Drive",
+      "title": "Rotation meets translation.",
+      "duration": 10,
+      "previewAt": 1.5,
+      "caption": "",
+      "scopeId": "bench-vise",
+      "selectedId": "bench-vise",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0.6,
+        0
+      ],
+      "camera": {
+        "focusId": "bench-vise",
+        "direction": [
+          0.95,
+          1.1,
+          1.55
+        ],
+        "explosion": 0.6,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 1.8,
+          "id": "focus",
+          "scopeId": "lead-screw",
+          "selectedId": "lead-screw",
+          "camera": {
+            "focusId": "lead-screw",
+            "direction": [
+              0.3,
+              0.9,
+              1.7
+            ],
+            "explosion": 0,
+            "scale": 1
+          }
+        },
+        {
+          "at": 3,
+          "id": "nut",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "stationary-nut"
+          ],
+          "caption": "The nut stays fixed in the body.",
+          "annotations": [
+            {
+              "nodeId": "stationary-nut",
+              "label": "Fixed nut"
+            }
+          ]
+        },
+        {
+          "at": 6,
+          "id": "screw",
+          "highlightIds": [
+            "spindle-helical-thread"
+          ],
+          "caption": "Turning the screw advances it through that nut.",
+          "annotations": [
+            {
+              "nodeId": "spindle-helical-thread",
+              "label": "Lead screw"
+            }
+          ]
+        }
+      ],
+      "transition": 1.5,
+      "start": 16,
+      "end": 26
+    },
+    {
+      "id": "motion",
+      "label": "Motion",
+      "title": "Watch the relation.",
+      "duration": 26,
+      "previewAt": 2,
+      "caption": "",
+      "scopeId": "bench-vise",
+      "selectedId": "bench-vise",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "bench-vise",
+        "direction": [
+          0.4,
+          1.1,
+          1.7
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.6,
+          "id": "input",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "handle"
+          ],
+          "caption": "Turn the handle.",
+          "annotations": [
+            {
+              "nodeId": "handle",
+              "label": "Rotary input",
+              "motion": "rotate"
+            }
+          ]
+        },
+        {
+          "at": 4,
+          "id": "output",
+          "highlightIds": [
+            "moving-jaw"
+          ],
+          "caption": "The jaw advances. The guides keep it aligned.",
+          "annotations": [
+            {
+              "nodeId": "moving-jaw",
+              "label": "Linear travel",
+              "motion": "linear"
+            }
+          ]
+        },
+        {
+          "at": 8.2,
+          "id": "reverse",
+          "caption": "Reverse the turn to open the jaw again."
+        },
+        {
+          "at": 16,
+          "id": "release",
+          "renderStyle": "engineering",
+          "highlightIds": [],
+          "caption": "Now watch the complete open–close cycle.",
+          "annotations": []
+        },
+        {
+          "at": 24.6,
+          "id": "limit",
+          "caption": "Authored motion illustrates the relationship, not clamping force."
+        }
+      ],
+      "settledAt": 8,
+      "operation": {
+        "clipName": "ViseOpenClose",
+        "sourceDuration": 5.5,
+        "settledProgress": 0.4,
+        "passes": [
+          {
+            "id": "coached",
+            "start": 1.5,
+            "duration": 14.5,
+            "keyframes": [
+              {
+                "at": 0,
+                "progress": 0
+              },
+              {
+                "at": 6,
+                "progress": 0.4090909090909091
+              },
+              {
+                "at": 8,
+                "progress": 0.5272727272727272
+              },
+              {
+                "at": 14.5,
+                "progress": 1
+              }
+            ]
+          },
+          {
+            "id": "continuous",
+            "start": 18,
+            "duration": 6.5,
+            "keyframes": [
+              {
+                "at": 0,
+                "progress": 0
+              },
+              {
+                "at": 6.5,
+                "progress": 1
+              }
+            ]
+          }
+        ]
+      },
+      "start": 26,
+      "end": 52
+    },
+    {
+      "id": "return",
+      "label": "Explore",
+      "title": "Take it from here.",
+      "duration": 8,
+      "previewAt": 1.5,
+      "caption": "",
+      "scopeId": "bench-vise",
+      "selectedId": "bench-vise",
+      "highlightIds": [],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "bench-vise",
+        "direction": [
+          0.95,
+          1.1,
+          1.55
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.9,
+          "id": "handoff",
+          "caption": "Select a component. Follow its place in the assembly."
+        }
+      ],
+      "start": 52,
+      "end": 60
+    }
+  ],
+  "duration": 60
+}
