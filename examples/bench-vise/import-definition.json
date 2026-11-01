@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "id": "bench-vise",
+  "rootId": "bench-vise",
+  "title": "Precision bench vise",
+  "shortTitle": "Bench vise",
+  "provenance": {
+    "author": "Annora",
+    "license": "MIT",
+    "attribution": "Original Annora bench-vise study · MIT · 2026",
+    "description": "Original procedural geometry and authored screw-to-jaw motion created for the Annora Explorer template.",
+    "note": "Illustrative rigid-body kinematics. Not manufacturer CAD, a force simulation, or manufacturing guidance. Display finishes and separation offsets are explanatory."
+  },
+  "licenseFile": "LICENSE",
+  "view": {
+    "direction": [
+      0.95,
+      1.1,
+      1.55
+    ],
+    "normalizedWidth": 4.4,
+    "labels": [
+      "Overview",
+      "Reverse"
+    ]
+  },
+  "creaseAngle": 35,
+  "groups": [
+    {
+      "id": "base",
+      "title": "Base and mounting",
+      "description": "The fixed foundation and four mounting ears.",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ],
+      "meshNames": [
+        "base_plinth",
+        "mounting_ear_1",
+        "mounting_washer_1",
+        "mounting_bolt_1",
+        "mounting_ear_2",
+        "mounting_washer_2",
+        "mounting_bolt_2",
+        "mounting_ear_3",
+        "mounting_washer_3",
+        "mounting_bolt_3",
+        "mounting_ear_4",
+        "mounting_washer_4",
+        "mounting_bolt_4"
+      ]
+    },
+    {
+      "id": "fixed-jaw",
+      "title": "Fixed jaw",
+      "description": "A fixed support and replaceable steel contact plate.",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ],
+      "meshNames": [
+        "fixed_jaw_body",
+        "fixed_jaw_plate",
+        "fixed_jaw_shoulder",
+        "fixed_plate_screw_1",
+        "fixed_plate_screw_2",
+        "fixed_plate_screw_3",
+        "fixed_plate_screw_4",
+        "fixed_nameplate",
+        "nameplate_rivet_1",
+        "nameplate_rivet_2"
+      ]
+    },
+    {
+      "id": "moving-jaw",
+      "title": "Moving jaw",
+      "description": "The carriage translates along the guideways without rotating.",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ],
+      "meshNames": [
+        "moving_jaw_body",
+        "moving_jaw_plate",
+        "moving_plate_screw_1",
+        "moving_plate_screw_2",
+        "moving_plate_screw_3",
+        "moving_plate_screw_4",
+        "moving_carriage_bridge",
+        "carriage_shoe_1",
+        "carriage_shoe_2",
+        "front_bearing_housing",
+        "bearing_insert",
+        "thrust_washer"
+      ]
+    },
+    {
+      "id": "lead-screw",
+      "title": "Lead screw and nut",
+      "description": "A rotating, translating spindle passes through a stationary nut. The thread is illustrative.",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ],
+      "meshNames": [
+        "spindle_core",
+        "spindle_helical_thread",
+        "spindle_rear_tip",
+        "stationary_nut",
+        "nut_retainer",
+        "nut_retainer_screw_1",
+        "nut_retainer_screw_2"
+      ]
+    },
+    {
+      "id": "handle",
+      "title": "Handle",
+      "description": "The tommy bar rotates with the spindle and travels with the moving jaw.",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ],
+      "meshNames": [
+        "handle_hub",
+        "handle_bar",
+        "handle_end_cap_1",
+        "handle_stop_ring_1",
+        "handle_end_cap_2",
+        "handle_stop_ring_2"
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Guideways",
+      "description": "Two fixed steel ways align the translating carriage.",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ],
+      "meshNames": [
+        "guideway_1",
+        "guide_stop_1_1",
+        "guide_stop_screw_1_1",
+        "guide_stop_1_2",
+        "guide_stop_screw_1_2",
+        "guideway_2",
+        "guide_stop_2_1",
+        "guide_stop_screw_2_1",
+        "guide_stop_2_2",
+        "guide_stop_screw_2_2"
+      ]
+    }
+  ],
+  "parts": {
+    "base_plinth": {
+      "id": "base-plinth",
+      "title": "Base Plinth",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_ear_1": {
+      "id": "mounting-ear-1",
+      "title": "Mounting Ear 1",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_washer_1": {
+      "id": "mounting-washer-1",
+      "title": "Mounting Washer 1",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_bolt_1": {
+      "id": "mounting-bolt-1",
+      "title": "Mounting Bolt 1",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_ear_2": {
+      "id": "mounting-ear-2",
+      "title": "Mounting Ear 2",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_washer_2": {
+      "id": "mounting-washer-2",
+      "title": "Mounting Washer 2",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_bolt_2": {
+      "id": "mounting-bolt-2",
+      "title": "Mounting Bolt 2",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_ear_3": {
+      "id": "mounting-ear-3",
+      "title": "Mounting Ear 3",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_washer_3": {
+      "id": "mounting-washer-3",
+      "title": "Mounting Washer 3",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_bolt_3": {
+      "id": "mounting-bolt-3",
+      "title": "Mounting Bolt 3",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_ear_4": {
+      "id": "mounting-ear-4",
+      "title": "Mounting Ear 4",
+      "finishFamily": "structure",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_washer_4": {
+      "id": "mounting-washer-4",
+      "title": "Mounting Washer 4",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "mounting_bolt_4": {
+      "id": "mounting-bolt-4",
+      "title": "Mounting Bolt 4",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        -0.055,
+        0
+      ]
+    },
+    "fixed_jaw_body": {
+      "id": "fixed-jaw-body",
+      "title": "Fixed Jaw Body",
+      "finishFamily": "structure",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_jaw_plate": {
+      "id": "fixed-jaw-plate",
+      "title": "Fixed Jaw Plate",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_jaw_shoulder": {
+      "id": "fixed-jaw-shoulder",
+      "title": "Fixed Jaw Shoulder",
+      "finishFamily": "satin",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_plate_screw_1": {
+      "id": "fixed-plate-screw-1",
+      "title": "Fixed Plate Screw 1",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_plate_screw_2": {
+      "id": "fixed-plate-screw-2",
+      "title": "Fixed Plate Screw 2",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_plate_screw_3": {
+      "id": "fixed-plate-screw-3",
+      "title": "Fixed Plate Screw 3",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_plate_screw_4": {
+      "id": "fixed-plate-screw-4",
+      "title": "Fixed Plate Screw 4",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "fixed_nameplate": {
+      "id": "fixed-nameplate",
+      "title": "Fixed Nameplate",
+      "finishFamily": "bronze",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "nameplate_rivet_1": {
+      "id": "nameplate-rivet-1",
+      "title": "Nameplate Rivet 1",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "nameplate_rivet_2": {
+      "id": "nameplate-rivet-2",
+      "title": "Nameplate Rivet 2",
+      "finishFamily": "machined",
+      "explode": [
+        -0.06,
+        0.055,
+        0
+      ]
+    },
+    "moving_jaw_body": {
+      "id": "moving-jaw-body",
+      "title": "Moving Jaw Body",
+      "finishFamily": "structure",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_jaw_plate": {
+      "id": "moving-jaw-plate",
+      "title": "Moving Jaw Plate",
+      "finishFamily": "machined",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_plate_screw_1": {
+      "id": "moving-plate-screw-1",
+      "title": "Moving Plate Screw 1",
+      "finishFamily": "machined",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_plate_screw_2": {
+      "id": "moving-plate-screw-2",
+      "title": "Moving Plate Screw 2",
+      "finishFamily": "machined",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_plate_screw_3": {
+      "id": "moving-plate-screw-3",
+      "title": "Moving Plate Screw 3",
+      "finishFamily": "machined",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_plate_screw_4": {
+      "id": "moving-plate-screw-4",
+      "title": "Moving Plate Screw 4",
+      "finishFamily": "machined",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "moving_carriage_bridge": {
+      "id": "moving-carriage-bridge",
+      "title": "Moving Carriage Bridge",
+      "finishFamily": "satin",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "carriage_shoe_1": {
+      "id": "carriage-shoe-1",
+      "title": "Carriage Shoe 1",
+      "finishFamily": "bronze",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "carriage_shoe_2": {
+      "id": "carriage-shoe-2",
+      "title": "Carriage Shoe 2",
+      "finishFamily": "bronze",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "front_bearing_housing": {
+      "id": "front-bearing-housing",
+      "title": "Front Bearing Housing",
+      "finishFamily": "satin",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "bearing_insert": {
+      "id": "bearing-insert",
+      "title": "Bearing Insert",
+      "finishFamily": "bronze",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "thrust_washer": {
+      "id": "thrust-washer",
+      "title": "Thrust Washer",
+      "finishFamily": "polished",
+      "explode": [
+        0.05,
+        0.07,
+        0
+      ]
+    },
+    "spindle_core": {
+      "id": "spindle-core",
+      "title": "Spindle Core",
+      "finishFamily": "machined",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "spindle_helical_thread": {
+      "id": "spindle-helical-thread",
+      "title": "Spindle Helical Thread",
+      "finishFamily": "polished",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "spindle_rear_tip": {
+      "id": "spindle-rear-tip",
+      "title": "Spindle Rear Tip",
+      "finishFamily": "polished",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "stationary_nut": {
+      "id": "stationary-nut",
+      "title": "Stationary Nut",
+      "finishFamily": "bronze",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "nut_retainer": {
+      "id": "nut-retainer",
+      "title": "Nut Retainer",
+      "finishFamily": "machined",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "nut_retainer_screw_1": {
+      "id": "nut-retainer-screw-1",
+      "title": "Nut Retainer Screw 1",
+      "finishFamily": "machined",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "nut_retainer_screw_2": {
+      "id": "nut-retainer-screw-2",
+      "title": "Nut Retainer Screw 2",
+      "finishFamily": "machined",
+      "explode": [
+        0.035,
+        0.015,
+        0.09
+      ]
+    },
+    "handle_hub": {
+      "id": "handle-hub",
+      "title": "Handle Hub",
+      "finishFamily": "machined",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "handle_bar": {
+      "id": "handle-bar",
+      "title": "Handle Bar",
+      "finishFamily": "polished",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "handle_end_cap_1": {
+      "id": "handle-end-cap-1",
+      "title": "Handle End Cap 1",
+      "finishFamily": "machined",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "handle_stop_ring_1": {
+      "id": "handle-stop-ring-1",
+      "title": "Handle Stop Ring 1",
+      "finishFamily": "polished",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "handle_end_cap_2": {
+      "id": "handle-end-cap-2",
+      "title": "Handle End Cap 2",
+      "finishFamily": "machined",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "handle_stop_ring_2": {
+      "id": "handle-stop-ring-2",
+      "title": "Handle Stop Ring 2",
+      "finishFamily": "polished",
+      "explode": [
+        0.12,
+        0.015,
+        0
+      ]
+    },
+    "guideway_1": {
+      "id": "guideway-1",
+      "title": "Guideway 1",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_1_1": {
+      "id": "guide-stop-1-1",
+      "title": "Guide Stop 1 1",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_screw_1_1": {
+      "id": "guide-stop-screw-1-1",
+      "title": "Guide Stop Screw 1 1",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_1_2": {
+      "id": "guide-stop-1-2",
+      "title": "Guide Stop 1 2",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_screw_1_2": {
+      "id": "guide-stop-screw-1-2",
+      "title": "Guide Stop Screw 1 2",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guideway_2": {
+      "id": "guideway-2",
+      "title": "Guideway 2",
+      "finishFamily": "polished",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_2_1": {
+      "id": "guide-stop-2-1",
+      "title": "Guide Stop 2 1",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_screw_2_1": {
+      "id": "guide-stop-screw-2-1",
+      "title": "Guide Stop Screw 2 1",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_2_2": {
+      "id": "guide-stop-2-2",
+      "title": "Guide Stop 2 2",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    },
+    "guide_stop_screw_2_2": {
+      "id": "guide-stop-screw-2-2",
+      "title": "Guide Stop Screw 2 2",
+      "finishFamily": "machined",
+      "explode": [
+        0,
+        0.025,
+        -0.085
+      ]
+    }
+  },
+  "operation": {
+    "clipName": "ViseOpenClose",
+    "duration": 5.5,
+    "stages": [
+      {
+        "at": 0,
+        "title": "Open position",
+        "description": "The jaw starts open. The base, nut and guideways remain fixed.",
+        "nodeId": "base"
+      },
+      {
+        "at": 0.045454545454545456,
+        "title": "Closing travel",
+        "description": "The handle and spindle turn together while the moving jaw translates.",
+        "nodeId": "lead-screw"
+      },
+      {
+        "at": 0.4090909090909091,
+        "title": "Closed position",
+        "description": "The authored motion pauses before reversal; no clamping force is calculated.",
+        "nodeId": "moving-jaw"
+      },
+      {
+        "at": 0.5272727272727272,
+        "title": "Opening travel",
+        "description": "Reversing the spindle returns the jaw along the same guideways.",
+        "nodeId": "handle"
+      },
+      {
+        "at": 0.890909090909091,
+        "title": "Return to start",
+        "description": "The source assembly returns to its exact starting pose.",
+        "nodeId": "bench-vise"
+      }
+    ]
+  },
+  "tour": "authored-tour.json"
+}

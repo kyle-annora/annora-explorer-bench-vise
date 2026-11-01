@@ -1,0 +1,27 @@
+{
+  "name": "annora-explorer-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:project": "node scripts/configure.mjs",
+    "dev": "npm run prepare:project && vite --host 127.0.0.1 --port 8095",
+    "build": "npm run prepare:project && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 8095",
+    "test": "npm run prepare:project && node --test tests/*.test.mjs tests/runtime/*.test.js",
+    "check": "node scripts/check-project.mjs",
+    "import:model": "node scripts/import-model.mjs",
+    "verify": "npm run check && npm test && npm run build"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  },
+  "description": "Configurable assembly Explorer starter with independent model packages and GitHub Pages deployment.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

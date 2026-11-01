@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "annora-explorer",
+  "title": "Annora Explorer",
+  "description": "Explore prepared mechanical assemblies, inspect their components and follow authored motion.",
+  "brand": {
+    "name": "ANNORA",
+    "product": "EXPLORER",
+    "homeUrl": "./",
+    "accent": "#ff6840"
+  },
+  "defaultModel": "kinetic-01",
+  "features": {
+    "explode": true,
+    "operation": true,
+    "tour": true,
+    "themes": true,
+    "quality": true,
+    "renderStyles": ["engineering", "linework", "flat"]
+  },
+  "models": [
+    { "manifest": "content/models/kinetic-01/manifest.json" },
+    { "manifest": "content/models/apollo/manifest.json" }
+  ]
+}

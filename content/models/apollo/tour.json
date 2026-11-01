@@ -1,0 +1,404 @@
+{
+  "id": "apollo",
+  "title": "Inside the Apollo crew hatch",
+  "duration": 60,
+  "chapters": [
+    {
+      "id": "whole",
+      "label": "Whole",
+      "title": "One connected hatch.",
+      "duration": 5,
+      "previewAt": 1.3,
+      "caption": "",
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "highlightIds": [],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.34,
+          0.2,
+          1
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.65,
+          "id": "structure",
+          "highlightIds": [
+            "shell"
+          ]
+        },
+        {
+          "at": 1,
+          "id": "whole-label",
+          "caption": "A panel, a window and fifteen perimeter latch assemblies."
+        }
+      ],
+      "start": 0,
+      "end": 5
+    },
+    {
+      "id": "layers",
+      "label": "Layers",
+      "title": "Read the layers.",
+      "duration": 9,
+      "previewAt": 3.2,
+      "caption": "",
+      "scopeId": "hatch",
+      "selectedId": "hatch",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0.52
+      ],
+      "transitionStart": 0.6,
+      "transition": 1.8,
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.64,
+          0.22,
+          1
+        ],
+        "explosion": 0.52,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 2.6,
+          "id": "panel",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "shell"
+          ]
+        },
+        {
+          "at": 2.95,
+          "id": "panel-label",
+          "caption": "The structural panel supports the surrounding assemblies.",
+          "annotations": [
+            {
+              "nodeId": "shell",
+              "label": "Structural panel"
+            }
+          ]
+        },
+        {
+          "at": 5.3,
+          "id": "window",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "window"
+          ],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 5.65,
+          "id": "window-label",
+          "caption": "The window forms a distinct assembly.",
+          "annotations": [
+            {
+              "nodeId": "window",
+              "label": "Window assembly"
+            }
+          ]
+        }
+      ],
+      "start": 5,
+      "end": 14
+    },
+    {
+      "id": "drive",
+      "label": "Drive",
+      "title": "Find the central drive.",
+      "duration": 10,
+      "previewAt": 3.3,
+      "caption": "",
+      "scopeId": "hatch",
+      "selectedId": "gearbox",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0.52,
+        0
+      ],
+      "transition": 1.5,
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.64,
+          0.22,
+          1
+        ],
+        "explosion": 0.52,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 1.7,
+          "id": "closeup",
+          "scopeId": "gearbox",
+          "camera": {
+            "focusId": "gearbox",
+            "direction": [
+              0.36,
+              0.3,
+              1
+            ],
+            "explosion": 0,
+            "scale": 1.04
+          }
+        },
+        {
+          "at": 2.65,
+          "id": "drive",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "gearbox"
+          ]
+        },
+        {
+          "at": 3,
+          "id": "drive-label",
+          "caption": "Look inside the central gearbox and drive assembly.",
+          "annotations": [
+            {
+              "nodeId": "gearbox",
+              "label": "Gearbox and drive"
+            }
+          ]
+        }
+      ],
+      "start": 14,
+      "end": 24
+    },
+    {
+      "id": "connections",
+      "label": "Connections",
+      "title": "Follow the connections.",
+      "duration": 12,
+      "previewAt": 1.9,
+      "caption": "",
+      "scopeId": "hatch",
+      "selectedId": "linkages",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "hatch",
+        "direction": [
+          0.12,
+          0.16,
+          1
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.9,
+          "id": "linework",
+          "renderStyle": "linework"
+        },
+        {
+          "at": 1.25,
+          "id": "linkages",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "linkages"
+          ]
+        },
+        {
+          "at": 1.6,
+          "id": "linkage-label",
+          "caption": "Rods and hardware extend across the hatch.",
+          "annotations": [
+            {
+              "nodeId": "linkages",
+              "label": "Distributed linkages"
+            }
+          ]
+        },
+        {
+          "at": 6.8,
+          "id": "perimeter",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "latches"
+          ],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 7.15,
+          "id": "perimeter-label",
+          "caption": "Fifteen latch assemblies repeat around the perimeter.",
+          "annotations": [
+            {
+              "nodeId": "latches",
+              "label": "Perimeter latches"
+            }
+          ]
+        }
+      ],
+      "start": 24,
+      "end": 36
+    },
+    {
+      "id": "latch",
+      "label": "Latch",
+      "title": "Inside one latch.",
+      "duration": 16,
+      "previewAt": 1.6,
+      "settledAt": 7.5,
+      "caption": "",
+      "scopeId": "latch-body1-1-003",
+      "selectedId": "latch-body1-1-003",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0.48
+      ],
+      "transitionStart": 4.3,
+      "transition": 1.8,
+      "camera": {
+        "focusId": "latch-body1-1-003",
+        "direction": [
+          0.48,
+          0.25,
+          1
+        ],
+        "explosion": 0.48,
+        "scale": 1.02
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.9,
+          "id": "assembly",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "latch-body1-1-003"
+          ]
+        },
+        {
+          "at": 1.25,
+          "id": "assembly-label",
+          "caption": "Inspect one of the repeated latch assemblies.",
+          "annotations": [
+            {
+              "nodeId": "latch-body1-1-003",
+              "label": "Latch assembly 01"
+            }
+          ]
+        },
+        {
+          "at": 3.5,
+          "id": "linework",
+          "renderStyle": "linework",
+          "highlightIds": [],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 6.5,
+          "id": "component",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "part_0002"
+          ]
+        },
+        {
+          "at": 6.85,
+          "id": "component-label",
+          "caption": "Separation reveals how the source components fit together."
+        },
+        {
+          "at": 11,
+          "id": "read-structure",
+          "renderStyle": "linework",
+          "highlightIds": [],
+          "caption": "The gaps reveal structure, not an operating sequence."
+        }
+      ],
+      "start": 36,
+      "end": 52
+    },
+    {
+      "id": "return",
+      "label": "Restore",
+      "title": "Return to the whole.",
+      "duration": 8,
+      "previewAt": 3.4,
+      "caption": "",
+      "scopeId": "latch-body1-1-003",
+      "selectedId": "latch-body1-1-003",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0.48,
+        0
+      ],
+      "transition": 1.6,
+      "camera": {
+        "focusId": "latch-body1-1-003",
+        "direction": [
+          0.48,
+          0.25,
+          1
+        ],
+        "explosion": 0.48,
+        "scale": 1.02
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 1.8,
+          "id": "whole",
+          "scopeId": "hatch",
+          "selectedId": "hatch",
+          "camera": {
+            "focusId": "hatch",
+            "direction": [
+              0.34,
+              0.2,
+              1
+            ],
+            "explosion": 0,
+            "scale": 1
+          }
+        },
+        {
+          "at": 2.75,
+          "id": "materials",
+          "renderStyle": "engineering"
+        },
+        {
+          "at": 3.1,
+          "id": "handoff",
+          "caption": "Back in the source arrangement. Take control to explore."
+        }
+      ],
+      "start": 52,
+      "end": 60
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "model": "bench-vise",
+  "author": "Annora",
+  "license": "MIT",
+  "meshes": 58,
+  "groups": 6,
+  "triangles": 12174,
+  "minimumTriangleAreaSquareMeters": 1.9842827499789073e-8,
+  "sourceBytes": 848488,
+  "sha256": "40427624bc9844818508fa07bef612154d44ae92880f717c557caa81468fe623",
+  "animation": {
+    "name": "ViseOpenClose",
+    "durationSeconds": 5.5,
+    "tracks": 2,
+    "keysPerTrack": 331,
+    "verifiedSamples": 661,
+    "travelMeters": 0.048,
+    "illustrativeLeadMetersPerTurn": 0.012,
+    "closingTurns": 4,
+    "maxTravelErrorMeters": 0.00000247979450324759,
+    "maxQuaternionDotError": 1.1235457009206584e-13
+  }
+}

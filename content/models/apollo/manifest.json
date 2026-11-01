@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "apollo",
+  "rootId": "hatch",
+  "title": "Apollo crew hatch",
+  "shortTitle": "Apollo hatch",
+  "assets": {
+    "model": "apollo-hatch.glb",
+    "compressedModel": "apollo-hatch.glb.gz",
+    "metadata": "metadata.json",
+    "edges": "apollo-edges.bin",
+    "compressedEdges": "apollo-edges.bin.gz",
+    "edgeMetadata": "edge-metadata.json",
+    "silhouettes": "apollo-silhouettes.bin",
+    "compressedSilhouettes": "apollo-silhouettes.bin.gz",
+    "silhouetteMetadata": "silhouette-metadata.json",
+    "license": "LICENSE.txt"
+  },
+  "view": {
+    "direction": [
+      0.34,
+      0.2,
+      1
+    ],
+    "normalizedWidth": 4.4,
+    "labels": [
+      "Interior",
+      "Exterior"
+    ]
+  },
+  "provenance": {
+    "author": "Andrew Barth / Smithsonian Institution",
+    "url": "https://3d.si.edu/object/3d/hatch-crew-apollo-11-cad-model:936d1822-b237-4431-bb3f-a1f9d39a2e90",
+    "license": "CC0-1.0",
+    "attribution": "Smithsonian \u00b7 Project Egress",
+    "description": "Andrew Barth\u2019s Project Egress hatch model, published by the Smithsonian. Its 801 source components retain their assembled geometry. Some navigation groups are explanatory spatial clusters, not a manufacturer parts list.",
+    "note": "Finishes and exploded offsets are illustrative. No mechanically verified operating animation is supplied for this model."
+  },
+  "presentationPolicy": {
+    "root": {
+      "id": "hatch",
+      "title": "Crew hatch",
+      "description": "Explore the interconnected hatch structure, drive mechanism and fifteen latch assemblies."
+    },
+    "subassemblyDescription": "A source-model latch subassembly. Inspect its individual components, or separate them to reveal their spatial relationships.",
+    "spatialGrouping": {
+      "minimumParts": 40,
+      "axis": 1,
+      "splitAt": -2.5,
+      "upper": {
+        "id": "upper",
+        "title": "Upper components"
+      },
+      "lower": {
+        "id": "lower",
+        "title": "Lower components"
+      },
+      "description": "Components grouped by their position in the source assembly. This is an exploration aid, not a manufacturing parts classification."
+    },
+    "explosion": {
+      "rootVectors": {
+        "shell": [
+          0,
+          0,
+          -0.9
+        ],
+        "window": [
+          0,
+          0.12,
+          1.5
+        ],
+        "handle": [
+          -0.85,
+          -0.12,
+          1.9
+        ],
+        "gearbox": [
+          -0.42,
+          -0.12,
+          1.1
+        ],
+        "linkages": [
+          0,
+          0.05,
+          0.45
+        ],
+        "latches": [
+          0,
+          0,
+          1
+        ]
+      },
+      "radial": {
+        "group": "latches",
+        "origin": [
+          0,
+          -2.5,
+          0
+        ],
+        "factors": [
+          0.22,
+          0.22,
+          0
+        ]
+      },
+      "scopeFactors": {
+        "latches": [
+          1,
+          1,
+          0.3
+        ]
+      }
+    },
+    "finishes": {
+      "eligibleSources": [
+        "Brushed steel",
+        "Unspecified"
+      ],
+      "groups": {
+        "gearbox": {
+          "family": "machined",
+          "basis": "Curated drive-system finish"
+        },
+        "shell": {
+          "family": "structure",
+          "basis": "Curated structural finish"
+        }
+      },
+      "sourceRoles": {
+        "group": "latches",
+        "basis": "Approved latch finish by source part role",
+        "families": {
+          "Body1": "satin",
+          "Body1:1": "machined",
+          "Body1:2": "polished",
+          "Body1:3": "satin",
+          "Body1:4": "polished",
+          "Body1:5": "polished",
+          "Body1:6": "polished",
+          "Body1:7": "polished",
+          "Body1:8": "polished",
+          "Body1:9": "satin",
+          "Body1:10": "polished",
+          "Body1:11": "satin",
+          "Body1:12": "satin",
+          "Body1:13": "satin",
+          "Body1:14": "satin",
+          "Body1:15": "satin",
+          "Body1:16": "satin",
+          "Body1:17": "satin",
+          "Body1:18": "satin",
+          "Body1:19": "satin"
+        }
+      }
+    },
+    "navigationIcons": {
+      "hatch": "cube",
+      "shell": "layers",
+      "window": "window",
+      "handle": "handle",
+      "gearbox": "gear",
+      "linkages": "linkages",
+      "latches": "latch"
+    }
+  },
+  "tour": "tour.json"
+}

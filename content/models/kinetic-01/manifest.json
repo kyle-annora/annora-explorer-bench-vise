@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "kinetic-01",
+  "rootId": "kinetic-01",
+  "title": "Crank-slider mechanism",
+  "shortTitle": "Crank-slider",
+  "assets": {
+    "model": "model.glb",
+    "compressedModel": "model.glb.gz",
+    "metadata": "metadata.json",
+    "edges": "edges.bin",
+    "compressedEdges": "edges.bin.gz",
+    "edgeMetadata": "edge-metadata.json",
+    "silhouettes": "silhouettes.bin",
+    "compressedSilhouettes": "silhouettes.bin.gz",
+    "silhouetteMetadata": "silhouette-metadata.json",
+    "license": "LICENSE.txt"
+  },
+  "view": {
+    "direction": [
+      0.55,
+      1.2,
+      1.35
+    ],
+    "normalizedWidth": 4.4,
+    "labels": [
+      "Overview",
+      "Reverse"
+    ],
+    "facts": [
+      {
+        "label": "Stroke",
+        "value": "70 mm"
+      },
+      {
+        "label": "Cycle",
+        "value": "4 seconds"
+      }
+    ]
+  },
+  "provenance": {
+    "author": "Pradeep Kaushik",
+    "url": "https://github.com/pr9868/scene-acceptance/tree/c361b9ad46f91ba960c708c2510aa204ad45605b/examples/astra-mechanical-assembly",
+    "license": "MIT",
+    "attribution": "Kinetic 01 \u00b7 Pradeep Kaushik",
+    "description": "Kinetic 01 by Pradeep Kaushik, released under the MIT license. This published procedural mechanism study was produced with an AI agent. Its original geometry, transform hierarchy and four-second animation are retained.",
+    "note": "An illustrative mechanism, not manufacturer CAD. Engineering finishes and exploded presentation are adapted for this Explorer; operating motion comes from the original asset."
+  },
+  "presentationPolicy": {
+    "navigationIcons": {
+      "crank": "gear",
+      "rod": "linkages",
+      "carriage": "latch",
+      "guide": "layers",
+      "frame": "cube"
+    }
+  },
+  "tour": "tour.json"
+}

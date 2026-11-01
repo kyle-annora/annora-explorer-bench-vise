@@ -1,0 +1,467 @@
+{
+  "id": "kinetic-01",
+  "title": "From rotation to linear travel",
+  "duration": 60,
+  "chapters": [
+    {
+      "id": "whole",
+      "label": "Whole",
+      "title": "Rotation to travel.",
+      "duration": 5,
+      "previewAt": 1.3,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "kinetic-01",
+      "highlightIds": [],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.55,
+          1.2,
+          1.35
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.65,
+          "id": "input",
+          "highlightIds": [
+            "crank"
+          ]
+        },
+        {
+          "at": 1,
+          "id": "purpose",
+          "caption": "A rotating crank drives a sliding carriage."
+        }
+      ],
+      "start": 0,
+      "end": 5
+    },
+    {
+      "id": "assemblies",
+      "label": "Assemblies",
+      "title": "Three working groups.",
+      "duration": 7,
+      "previewAt": 3,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "kinetic-01",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0.62
+      ],
+      "transitionStart": 0.6,
+      "transition": 1.6,
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.55,
+          1.2,
+          1.35
+        ],
+        "explosion": 0.62,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 2.35,
+          "id": "crank",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "crank"
+          ]
+        },
+        {
+          "at": 2.65,
+          "id": "crank-label",
+          "caption": "Rotary input.",
+          "annotations": [
+            {
+              "nodeId": "crank",
+              "label": "Crank"
+            }
+          ]
+        },
+        {
+          "at": 3.9,
+          "id": "rod",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "rod"
+          ],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 4.2,
+          "id": "rod-label",
+          "caption": "A connecting link.",
+          "annotations": [
+            {
+              "nodeId": "rod",
+              "label": "Connecting rod"
+            }
+          ]
+        },
+        {
+          "at": 5.45,
+          "id": "carriage",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "carriage"
+          ],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 5.75,
+          "id": "carriage-label",
+          "caption": "Linear output.",
+          "annotations": [
+            {
+              "nodeId": "carriage",
+              "label": "Carriage"
+            }
+          ]
+        }
+      ],
+      "start": 5,
+      "end": 12
+    },
+    {
+      "id": "connection",
+      "label": "Connection",
+      "title": "Two pivots. One link.",
+      "duration": 8,
+      "previewAt": 3.5,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "rod",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0.62,
+        0
+      ],
+      "transition": 1.4,
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.55,
+          1.2,
+          1.35
+        ],
+        "explosion": 0.62,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 1.6,
+          "id": "closeup",
+          "scopeId": "rod",
+          "camera": {
+            "focusId": "rod",
+            "direction": [
+              0.12,
+              1.65,
+              1.1
+            ],
+            "explosion": 0,
+            "scale": 1.02
+          }
+        },
+        {
+          "at": 2.5,
+          "id": "linework",
+          "renderStyle": "linework"
+        },
+        {
+          "at": 2.85,
+          "id": "link",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "rod"
+          ]
+        },
+        {
+          "at": 3.15,
+          "id": "pivots",
+          "caption": "Two pivot joints let the rod change angle.",
+          "annotations": [
+            {
+              "nodeId": "kinetic-node-002",
+              "label": "Crank-side pivot"
+            },
+            {
+              "nodeId": "kinetic-node-003",
+              "label": "Carriage-side pivot"
+            }
+          ]
+        }
+      ],
+      "start": 12,
+      "end": 20
+    },
+    {
+      "id": "alignment",
+      "label": "Align",
+      "title": "Ready to move.",
+      "duration": 3,
+      "previewAt": 1.5,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "kinetic-01",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.12,
+          1.7,
+          1.15
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.8,
+          "id": "guide",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "guide"
+          ]
+        },
+        {
+          "at": 1.15,
+          "id": "axis",
+          "caption": "The fixed guide keeps the carriage on one axis."
+        }
+      ],
+      "start": 20,
+      "end": 23
+    },
+    {
+      "id": "cycle",
+      "label": "Motion",
+      "title": "Follow the motion.",
+      "duration": 31,
+      "previewAt": 1,
+      "settledAt": 7.5,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "kinetic-01",
+      "highlightIds": [],
+      "renderStyle": "linework",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.12,
+          1.7,
+          1.15
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "operation": {
+        "clipName": "Animation",
+        "sourceDuration": 4,
+        "settledProgress": 0.25,
+        "passes": [
+          {
+            "id": "coached",
+            "start": 1.5,
+            "duration": 19.5,
+            "keyframes": [
+              {
+                "at": 0,
+                "progress": 0
+              },
+              {
+                "at": 6,
+                "progress": 0.25
+              },
+              {
+                "at": 12,
+                "progress": 0.5
+              },
+              {
+                "at": 13.5,
+                "progress": 0.5
+              },
+              {
+                "at": 19.5,
+                "progress": 1
+              }
+            ]
+          },
+          {
+            "id": "continuous",
+            "start": 22,
+            "duration": 8,
+            "keyframes": [
+              {
+                "at": 0,
+                "progress": 0
+              },
+              {
+                "at": 8,
+                "progress": 1
+              }
+            ]
+          }
+        ]
+      },
+      "cues": [
+        {
+          "at": 0.4,
+          "id": "input",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "crank"
+          ]
+        },
+        {
+          "at": 0.75,
+          "id": "input-label",
+          "caption": "The crank turns.",
+          "annotations": [
+            {
+              "nodeId": "crank",
+              "label": "Rotary input",
+              "motion": "rotate"
+            }
+          ]
+        },
+        {
+          "at": 6.7,
+          "id": "transfer",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "rod"
+          ],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 7.05,
+          "id": "transfer-label",
+          "caption": "The rod transfers the motion.",
+          "annotations": [
+            {
+              "nodeId": "rod",
+              "label": "Connecting rod"
+            }
+          ]
+        },
+        {
+          "at": 13.5,
+          "id": "inner-limit",
+          "renderStyle": "flat",
+          "highlightIds": [
+            "carriage"
+          ],
+          "caption": "",
+          "annotations": [
+            {
+              "nodeId": "carriage",
+              "label": "Inner limit"
+            }
+          ]
+        },
+        {
+          "at": 13.85,
+          "id": "reversal",
+          "caption": "The carriage reaches its limit, then reverses."
+        },
+        {
+          "at": 15.2,
+          "id": "return-stroke",
+          "caption": "The crank keeps turning; the carriage returns.",
+          "annotations": [
+            {
+              "nodeId": "carriage",
+              "label": "Linear travel",
+              "motion": "linear"
+            }
+          ]
+        },
+        {
+          "at": 21,
+          "id": "release",
+          "renderStyle": "engineering",
+          "highlightIds": [],
+          "caption": "",
+          "annotations": []
+        },
+        {
+          "at": 21.35,
+          "id": "whole-cycle",
+          "title": "Watch it work.",
+          "caption": "One turn. One out-and-back cycle."
+        }
+      ],
+      "start": 23,
+      "end": 54
+    },
+    {
+      "id": "return",
+      "label": "Restore",
+      "title": "Now it is yours.",
+      "duration": 6,
+      "previewAt": 1.2,
+      "caption": "",
+      "scopeId": "kinetic-01",
+      "selectedId": "kinetic-01",
+      "highlightIds": [],
+      "renderStyle": "engineering",
+      "explosion": [
+        0,
+        0
+      ],
+      "camera": {
+        "focusId": "kinetic-01",
+        "direction": [
+          0.55,
+          1.2,
+          1.35
+        ],
+        "explosion": 0,
+        "scale": 1
+      },
+      "annotations": [],
+      "cues": [
+        {
+          "at": 0.9,
+          "id": "handoff",
+          "caption": "Take control. Follow any component."
+        }
+      ],
+      "start": 54,
+      "end": 60
+    }
+  ]
+}
