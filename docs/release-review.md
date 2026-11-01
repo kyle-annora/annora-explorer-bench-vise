@@ -25,7 +25,7 @@ The original sample was imported through the generic CLI. No file under `src/exp
 
 ## Recorded live review
 
-Chrome UI checks ran against the deployed application on 2026-11-01 UTC. Screenshot bytes are preserved without visual editing; artifact hashes are in the evidence JSON.
+Chrome UI checks ran against the deployed application on October 31, 2026 (America/Los_Angeles). Machine-readable timestamps use UTC. Screenshot bytes are preserved without visual editing; artifact hashes are in the evidence JSON.
 
 | Area | Recorded result |
 | --- | --- |
