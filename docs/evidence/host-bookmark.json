@@ -1,0 +1,44 @@
+{
+  "viewVersion": "0.1",
+  "model": {
+    "id": "bench-vise",
+    "revision": "sha256:f06102156354562689e2711e0517bb6f870fa4740051b8f3aa7fa550157944cb"
+  },
+  "coordinateFrame": "normalized-assembly-v1",
+  "selectedId": "moving-jaw",
+  "scopeId": "moving-jaw",
+  "isolated": false,
+  "mode": "explore",
+  "renderStyle": "flat",
+  "separation": 0,
+  "operation": null,
+  "camera": {
+    "position": [
+      6.982702398661979,
+      7.441247856201455,
+      10.225623812613156
+    ],
+    "target": [
+      0.7247517719394416,
+      0.19519976210166898,
+      0.01528331638164807
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "projection": {
+      "kind": "perspective",
+      "verticalFovDegrees": 15,
+      "zoom": 1,
+      "offsetX": 6,
+      "offsetY": 14.5
+    },
+    "viewport": {
+      "width": 1545,
+      "height": 643
+    },
+    "layoutKey": "[1545,643,{\"left\":262,\"right\":274,\"top\":74,\"bottom\":103}]"
+  }
+}

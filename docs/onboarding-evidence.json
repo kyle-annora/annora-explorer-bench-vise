@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "recordedAt": "2026-11-01T00:20:11.304182+00:00",
+  "recordedAt": "2026-11-01T00:30:36.989662+00:00",
   "github": {
     "createdAt": "2026-11-01T00:18:35Z",
     "repository": "kyle-annora/annora-explorer-bench-vise",
@@ -28,9 +28,151 @@
     "packageCheck": "passed",
     "testPass": 247,
     "testFail": 0,
-    "productionBuild": "passed"
+    "productionBuild": "passed",
+    "ciNode": "v22.23.4",
+    "ciTestPass": 247,
+    "ciTestFail": 0
   },
   "sharedRuntimeEdits": false,
-  "liveReview": "pending deployment",
-  "templateSourceCommit": "889ded549867540fa45abe95e631acd0b1ea0cb4"
+  "liveReview": {
+    "status": "passed recorded browser scenarios; hardware performance not qualified",
+    "browser": "Chrome on desktop; CUA UI interaction",
+    "standalone": {
+      "url": "https://kyle-annora.github.io/annora-explorer-bench-vise/",
+      "viewports": [
+        [
+          1920,
+          871
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          844,
+          390
+        ]
+      ],
+      "renderStyles": [
+        "engineering",
+        "linework",
+        "flat"
+      ],
+      "navigation": "select Moving jaw, focus its hierarchy, isolate, explode to 100%, reassemble",
+      "operation": "completed a manual cycle; paused and sought to 45%",
+      "fullTour": "one unseeked 60-second tour completed at 390x844; Replay/Explore completion state observed",
+      "restore": "return from tour restored Engineering, Operate and the prior paused 45% pose",
+      "takeover": "canvas drag paused the player and showed the takeover message",
+      "chapters": "paused chapter navigation reached Motion and Flat Ember rotary-input highlight",
+      "quality": "Performance and Balanced controls exercised",
+      "responsive": "no horizontal or vertical overflow in 390x844 and 844x390 standalone viewports"
+    },
+    "crossOriginHost": {
+      "hostOrigin": "http://127.0.0.1:8121",
+      "explorerOrigin": "https://kyle-annora.github.io",
+      "childUrl": "https://kyle-annora.github.io/annora-explorer-bench-vise/?model=bench-vise&embed=1&parentOrigin=http%3A%2F%2F127.0.0.1%3A8121",
+      "verification": "visible WebGL scene, Connected status, public commands and current-view state",
+      "commands": [
+        "select",
+        "focus",
+        "setRenderStyle",
+        "setExplosion",
+        "captureView",
+        "restoreView",
+        "startTour",
+        "goToTourChapter",
+        "resumeTour",
+        "pauseTour",
+        "exitTour",
+        "dispose"
+      ],
+      "bookmark": "captured settled Moving jaw scope in Flat; changed to 65% explosion and restored scope, render style and zero separation",
+      "negativeBookmark": "a different model revision was rejected; displayed view remained unchanged",
+      "lifecycle": "Disconnect removed iframe and disabled controls; Connect and another Remount produced fresh ready scenes; normal host reload connected directly",
+      "mobile": "390x844 configured viewport; content width375 with vertical scrollbar; chapter selection revealed iframe in viewport, rendered Motion chapter, no horizontal overflow",
+      "initialObservation": "The initial opening was observed in Connecting state and remounted before load timing was recorded. Subsequent reconnect, remount and normal reload reached Ready. This does not establish a reproducible timeout or a measured cold-load result."
+    },
+    "applicationConsole": {
+      "errors": 0,
+      "warnings": 0,
+      "excludedBrowserExtensionWarnings": 2
+    },
+    "notQualified": [
+      "physical-phone GPU or thermal behavior",
+      "ordinary-laptop GPU or thermal behavior",
+      "measured cold-network first load",
+      "multi-instance rendering capacity",
+      "arbitrary CAD import",
+      "force or collision simulation"
+    ]
+  },
+  "templateSourceCommit": "889ded549867540fa45abe95e631acd0b1ea0cb4",
+  "deployment": {
+    "commit": "37ac8c8d435299f8e4199fae44fc1cb1696b0042",
+    "workflowRun": "https://github.com/kyle-annora/annora-explorer-bench-vise/actions/runs/41256328703",
+    "conclusion": "success",
+    "url": "https://kyle-annora.github.io/annora-explorer-bench-vise/"
+  },
+  "artifacts": [
+    {
+      "path": "docs/evidence/browser-application-logs.json",
+      "sha256": "acbfd1662873a42382c82888e38d231760993fa350499db54d27289365e637db",
+      "bytes": 78
+    },
+    {
+      "path": "docs/evidence/cross-origin-host-mobile.jpg",
+      "sha256": "1f505ec0d7e045491841dbe748ca15bd6337c230762ea6634e922669d64de97a",
+      "bytes": 31219
+    },
+    {
+      "path": "docs/evidence/cross-origin-host.jpg",
+      "sha256": "aec048227b32b060b4211f395ed7dc8f65dbd4234953480102459a6b1afb040f",
+      "bytes": 152632
+    },
+    {
+      "path": "docs/evidence/desktop-engineering.jpg",
+      "sha256": "ea49f75fbba90e83ac2b4e6118b182b67e5b81310a072d45dd7732469294b7fd",
+      "bytes": 93556
+    },
+    {
+      "path": "docs/evidence/desktop-exploded.jpg",
+      "sha256": "38066f570636ec7938adcc8b7228cdff6fc7216acf543aad991d9954f1d06385",
+      "bytes": 82893
+    },
+    {
+      "path": "docs/evidence/desktop-flat-ember.jpg",
+      "sha256": "17131cd4184166405092daab378feb87ff479a0f0eb808624993480588e3bd65",
+      "bytes": 100134
+    },
+    {
+      "path": "docs/evidence/desktop-linework.jpg",
+      "sha256": "962f4a1f5635a4190e688f13febb7e82213b72e35e4dc8606acb4fd27bbb0ebc",
+      "bytes": 100023
+    },
+    {
+      "path": "docs/evidence/host-bookmark.json",
+      "sha256": "41f30ae0b6e2ecc0789494b9d88fd73436749e6edea3640d647f770ebccc1ad9",
+      "bytes": 933
+    },
+    {
+      "path": "docs/evidence/landscape-tour.jpg",
+      "sha256": "8dd934b4496b896dbc0ae0d778ceb8c42887912eefb50e1bb97ac8bd25fb60ee",
+      "bytes": 24695
+    },
+    {
+      "path": "docs/evidence/mobile-operation.jpg",
+      "sha256": "164e906acd149ee192f506672a730cd3a6be858b031c54cc0f08ddfa19151694",
+      "bytes": 32591
+    },
+    {
+      "path": "docs/evidence/mobile-tour-completed.jpg",
+      "sha256": "7040af09ee3bbe4223c5cc01c4e15b1610cbcbd1f1a42dbcb241d77c61747e1d",
+      "bytes": 28281
+    },
+    {
+      "path": "docs/evidence/mobile-tour.jpg",
+      "sha256": "1d99dfd367a401eba5c26e23321a9e2edce7a6e379485639750935819a6e1c00",
+      "bytes": 27316
+    }
+  ]
 }
